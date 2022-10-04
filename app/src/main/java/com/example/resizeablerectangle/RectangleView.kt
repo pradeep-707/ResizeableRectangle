@@ -73,17 +73,14 @@ class RectangleView : View {
                         mRect.top = y
                         mRect.left = x
                     }
-
                     Corner.TOP_RIGHT -> {
                         mRect.top = y
                         mRect.right = x
                     }
-
                     Corner.BOTTOM_LEFT -> {
                         mRect.bottom = y
                         mRect.left = x
                     }
-
                     Corner.BOTTOM_RIGHT -> {
                         mRect.bottom = y
                         mRect.right = x
